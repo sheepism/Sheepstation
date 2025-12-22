@@ -977,6 +977,20 @@
         - ReagentId: Nocturine
           Quantity: 30
 
+  - type: entity
+  id: ChemistryBottleAvalonium
+  suffix: Avalonium
+  parent: BaseChemistryBottleFilled
+  components:
+  - type: Label
+    currentLabel: reagent-avalonium
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 30
+        reagents:
+        - ReagentId: Avalonium
+          Quantity: 30
 - type: entity
   id: ChemistryBottleEphedrine
   suffix: ephedrine
