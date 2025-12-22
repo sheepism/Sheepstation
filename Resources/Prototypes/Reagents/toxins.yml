@@ -539,7 +539,7 @@
         - !type:OrganType
           type: Animal
         - !type:OrganType # DeltaV
-          type: Bloodsucker
+          type: Bloodsucker 
         reagent: Protein
         amount: 0.5
       - !type:AdjustReagent
@@ -764,25 +764,3 @@
         conditions:
         - !type:OrganType
           type: Vox
-
-- type: reagent
-  id: Avalonium
-  name: reagent-name-avalonium
-  group: Toxins
-  desc: reagent-desc-avalonium
-  flavor: chemicals
-  color: "#4287f5"
-  physicalDesc: reagent-physical-desc-opaque
-  plantMetabolism:
-  - !type:PlantAdjustToxins
-    amount: 10
-  - !type:PlantAdjustHealth
-    amount: -15 # Why are you pouring your syndicate item into a plant
-  metabolisms:
-   metabolismRate: 0.2 # 10 dpu, but can be purged with dylo. seems fair to me
-    Poison:
-      effects:
-      - !type:HealthChange
-        damage:
-          types:
-            Cellular: 2

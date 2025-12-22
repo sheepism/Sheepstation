@@ -36,13 +36,6 @@
   metabolisms:
     Medicine:
       effects:
-       - !type:AdjustReagent
-        conditions:
-        - !type:ReagentThreshold
-          reagent: Avalonium
-          min: 1
-        reagent: Avalonium
-        amount: -5
       - !type:HealthChange
         damage:
           types:
