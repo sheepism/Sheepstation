@@ -79,3 +79,13 @@
       emergencyLightColor: CadetBlue
       forceEnableEmergencyLights: true
       shuttleTime: 600
+    theta: # SheepStation - Sector Marshals
+      announcement: alert-level-theta-announcement
+      selectable: false
+      sound: /Audio/Announcements/bloblarm.ogg
+      disableSelection: true
+      color: "#ba3fba"
+      emergencyLightColor: "#ba3fba"
+      forceEnableEmergencyLights: true
+      shuttleTime: 600
+
