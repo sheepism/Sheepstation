@@ -349,3 +349,49 @@
       path: /Audio/_DV/Weapons/Guns/Gunshots/laser.ogg
     soundEmpty:
       path: /Audio/_DV/Weapons/Guns/Empty/dry_fire.ogg
+
+ - type: entity
+  name: Cardinal
+  parent: [BaseWeaponRifle, BaseGunWieldable]
+  id: WeaponRifleCardinal
+  description: A special-order Lecter variant for the Sector Marshals. Lightweight and accurate. Feeds from standard .20 Rifle magazines.
+  suffix: Sector Marshals
+  components:
+  - type: Sprite
+    sprite: _Sheep/Items/Weapons/marlecter.rsi/
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Gun
+    minAngle: 3
+    maxAngle: 5
+    angleIncrease: 3
+    angleDecay: 12
+    fireRate: 5
+    selectedMode: FullAuto
+    availableModes:
+    - SemiAuto
+    - FullAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/ltrifle.ogg
+  - type: ChamberMagazineAmmoProvider
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineRifle
+        insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+          - MagazineRifle
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeRifle
+        priority: 1
+        whitelist:
+          tags:
+          - CartridgeRifle
