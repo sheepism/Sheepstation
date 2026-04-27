@@ -1,12 +1,4 @@
 ﻿Entries:
-- author: BarryNorfolk
-  changes:
-  - message: Added ability for Laika to grapple ne'er-do-wells with her jaws, grabbing
-      in combat mode will throw them to the floor!
-    type: Add
-  id: 1751
-  time: '2025-10-16T04:52:35.0000000+00:00'
-  url: https://github.com/DeltaV-Station/Delta-v/pull/4157
 - author: kotobdev
   changes:
   - message: Cortical Borers have been ported from Monolith, check Minor Antagonists
@@ -4437,4 +4429,11 @@
   id: 2251
   time: '2026-04-25T16:43:21.0000000+00:00'
   url: https://github.com/DeltaV-Station/Delta-v/pull/5658
+- author: sheepism
+  changes:
+  - message: The advanced microwave is now aligned with all the other microwaves.
+    type: Tweak
+  id: 2252
+  time: '2026-04-26T13:28:59.0000000+00:00'
+  url: https://github.com/DeltaV-Station/Delta-v/pull/5731
 Order: 1
