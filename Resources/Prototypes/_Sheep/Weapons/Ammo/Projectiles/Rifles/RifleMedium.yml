@@ -7,4 +7,4 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 20 # So basically, fuck game balance.
+        Piercing: 18 # It's fancy .20 rifle.

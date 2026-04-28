@@ -2,7 +2,7 @@
   parent: BaseCartridgeRifle
   id: CartridgeRifleMedium
   name: cartridge (.25 rifle)
-  description: A modern intermediate cartridge custom-made for the Cardinal.
+  description: A modern intermediate cartridge custom-made for the Cardinal. Standard kinetic ammunition is common and useful in most situations.
   components:
       - type: CartridgeAmmo
         proto: BulletRifleMedium

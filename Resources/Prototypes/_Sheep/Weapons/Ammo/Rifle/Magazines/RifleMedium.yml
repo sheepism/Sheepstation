@@ -1,0 +1,74 @@
+- type: entity
+  parent: BaseMagazineRifle
+  id: MagazineRifleMedium
+  name: "magazine (.25 rifle)"
+  description: 30-round double stack magazine for combat rifles. Intended to hold general-purpose kinetic ammunition.
+  components:
+  - type: BallisticAmmoProvider
+    capacity: 30
+    proto: CartridgeRifleMedium
+  - type: Tag
+    tags:
+     - MagazineRifleMedium
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left-mag
+      right:
+      - state: inhand-right-mag
+
+- type: entity
+  parent: BaseMagazineRifle
+  id: MagazineRifleMediumExtended
+  name: "extended magazine (.25 rifle)"
+  description: 40-round double stack magazine for combat rifles. Intended to hold general-purpose kinetic ammunition.
+  components:
+  - type: BallisticAmmoProvider
+    capacity: 40
+    proto: CartridgeRifleMedium
+  - type: Tag
+    tags:
+    - MagazineRifleMedium
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left-mag
+      right:
+      - state: inhand-right-mag
+
+- type: entity
+  parent: BaseMagazineRifle
+  id: MagazineRifleMediumShort
+  name: "shortened magazine (.25 rifle)"
+  description: 10-round double stack magazine for combat rifles. Intended to hold general-purpose kinetic ammunition.
+  components:
+  - type: BallisticAmmoProvider
+    capacity: 10
+    proto: CartridgeRifleMedium
+  - type: Tag
+    tags:
+    - MagazineRifleMedium
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: inhand-left-mag
+      right:
+      - state: inhand-right-mag
