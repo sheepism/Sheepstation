@@ -5,11 +5,8 @@
   description: A modern intermediate cartridge custom-made for the Cardinal.
   components:
       - type: CartridgeAmmo
-        proto: BulletRifleUranium # placeholder
+        proto: BulletRifleMedium
       - type: Sprite
         layers:
             - state: base
               map: [ "enum.AmmoVisualLayers.Base" ]
-            - state: tip
-              map: [ "enum.AmmoVisualLayers.Tip" ]
-              color: "#65fe08"
