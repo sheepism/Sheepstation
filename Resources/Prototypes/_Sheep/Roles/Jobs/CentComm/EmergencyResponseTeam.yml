@@ -1,0 +1,21 @@
+- type: startingGear
+  id: ERTSectorMarshalInspector
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitERTLeader
+    back: ClothingBackpackERTLeaderReducedVisual
+    shoes: ClothingShoesBootsCombatFilled
+    head: ClothingHeadHelmetERTLeader
+    eyes: ClothingEyesERTInformationHud
+    gloves: ClothingHandsGlovesCombat
+    outerClothing: ClothingOuterArmorBasicSlim
+    id: ERTLeaderPDA
+    ears: ClothingHeadsetAltCentCom
+    belt: WeaponEnergyGun
+    pocket1: CrowbarRed
+    pocket2: FlashlightSeclite
+  storage:
+    back:
+    - PinpointerNuclear
+    - Zipties
+    - Zipties
+    - DoorRemoteOmni
