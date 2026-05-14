@@ -1,0 +1,57 @@
+- type: entity
+  name: sector marshal inspector
+  id: RandomHumanoidSpawnerSMInspector
+  components:
+  - type: Sprite
+    sprite: Markers/jobs.rsi
+    state: centcom
+  - type: RandomMetadata
+    nameSegments:
+    - NamesMilitaryLast
+    nameFormat: name-format-sm-inspector
+  - type: RandomHumanoidSpawner
+    settings: SectorMarshalInspector
+
+- type: randomHumanoidSettings
+  id: SectorMarshalInspector
+  parent: EventHumanoidCentcomm
+  components:
+  - type: GhostRole
+    name: ghost-role-information-SMInspector-name
+    description: ghost-role-information-SMInspector-description
+    rules: ghost-role-information-SMInspector-rules
+    raffle:
+      settings: default
+    job: CentralCommandIntern
+  - type: Loadout
+    prototypes: [ CentcomInternGear ]
+    roleLoadout: [ RoleSurvivalStandard ]
+
+- type: entity
+  name: sector marshal inspector leader
+  id: RandomHumanoidSpawnerSMInspectorLeader
+  components:
+  - type: Sprite
+    sprite: Markers/jobs.rsi
+    state: centcom
+  - type: RandomMetadata
+    nameSegments:
+    - NamesMilitaryLast
+    nameFormat: name-format-sm-inspector-leader
+  - type: RandomHumanoidSpawner
+    settings: SectorMarshalInspector
+
+- type: randomHumanoidSettings
+  id: SectorMarshalInspectorLeader
+  parent: EventHumanoidCentcomm
+  components:
+  - type: GhostRole
+    name: ghost-role-information-SMInspector-name
+    description: ghost-role-information-SMInspector-description
+    rules: ghost-role-information-SMInspector-rules
+    raffle:
+      settings: default
+    job: CentralCommandIntern
+  - type: Loadout
+    prototypes: [ CentcomInternGear ]
+    roleLoadout: [ RoleSurvivalStandard ]

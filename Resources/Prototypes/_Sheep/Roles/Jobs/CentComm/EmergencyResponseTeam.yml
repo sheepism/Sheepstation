@@ -1,0 +1,95 @@
+- type: job
+  id: ERTSectorMarshalInspector
+  name: job-name-ERTSectorMarshalInspector
+  description: job-description-ERTSectorMarshalInspector
+  playTimeTracker: JobSMInspector
+  setPreference: false
+  startingGear: CentcomInternGear
+  icon: "JobIconERTSectorMarshalInspector"
+  supervisors: job-supervisors-solfed
+  canBeAntag: false
+  access:
+  - Command
+  - Medical
+  - Service
+  - Cargo
+  - Engineering
+  - Research
+  - Security
+  - Justice
+  - Maintenance
+  - External
+  special:
+  - !type:AddImplantSpecial
+    implants: [ CentCommImplant, DeathRattleImplantCentcomm ] # Changed Mindshield implant to Centcomm implant
+
+
+- type: startingGear
+  id: ERTSectorMarshalInspector
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitERTLeader
+    back: ClothingBackpackERTLeaderReducedVisual
+    shoes: ClothingShoesBootsCombatFilled
+    head: ClothingHeadHelmetERTLeader
+    eyes: ClothingEyesERTInformationHud
+    gloves: ClothingHandsGlovesCombat
+    outerClothing: ClothingOuterArmorBasicSlim
+    id: ERTLeaderPDA
+    ears: ClothingHeadsetAltCentCom
+    belt: WeaponEnergyGun
+    pocket1: CrowbarRed
+    pocket2: FlashlightSeclite
+  storage:
+    back:
+    - PinpointerNuclear
+    - Zipties
+    - Zipties
+    - DoorRemoteOmni
+# SMI Leader
+- type: job
+  id: ERTSectorMarshalInspectorLead
+  name: job-name-ERTSectorMarshalLead
+  description: job-description-ERTSectorMarshalInspectorLead
+  playTimeTracker: JobSMInspectorLead
+  setPreference: false
+  startingGear: CentcomInternGear
+  icon: "JobIconERTSectorMarshalInspector"
+  supervisors: job-supervisors-solfed
+  canBeAntag: false
+  access:
+  - Command
+  - Medical
+  - Service
+  - Cargo
+  - Engineering
+  - Research
+  - Security
+  - Justice
+  - Maintenance
+  - External
+  special:
+  - !type:AddImplantSpecial
+    implants: [ CentCommImplant, DeathRattleImplantCentcomm ] # Changed Mindshield implant to Centcomm implant
+
+
+- type: startingGear
+  id: ERTSectorMarshalInspectorLead
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitERTLeader
+    back: ClothingBackpackERTLeaderReducedVisual
+    shoes: ClothingShoesBootsCombatFilled
+    head: ClothingHeadHelmetERTLeader
+    eyes: ClothingEyesERTInformationHud
+    gloves: ClothingHandsGlovesCombat
+    outerClothing: ClothingOuterArmorBasicSlim
+    id: ERTLeaderPDA
+    ears: ClothingHeadsetAltCentCom
+    belt: WeaponEnergyGun
+    pocket1: CrowbarRed
+    pocket2: FlashlightSeclite
+  storage:
+    back:
+    - PinpointerNuclear
+    - Zipties
+    - Zipties
+    - DoorRemoteOmni
