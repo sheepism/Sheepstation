@@ -312,5 +312,3 @@ Resources/MapImages
 
 # Changelog package lock
 package-lock.json
-# Crash reports
-/Resources/Textures/_Sheep/Items/crash_report.txt
