@@ -183,7 +183,7 @@
   id: BibleRatvar
   name: tablet of ratvar
   parent: Bible
-  description: "A holy relic of the Clockwork Cult, blessed by the Clockwork Justice, Ratvar."
+  description: "A holy relic of the Clockwork Cult, blessed by the Clockwork Justicar, Ratvar."
   components:
   - type: Sprite
     sprite: Objects/Specific/Chapel/ratvartablet.rsi
